@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">scopher logo</title>
+  <defs>
+    <g id="gopher" stroke="#1d3b47" stroke-width="3" stroke-linejoin="round">
+      <circle cx="-30" cy="-48" r="10" fill="#74cfe8"/>
+      <circle cx="30" cy="-48" r="10" fill="#74cfe8"/>
+      <ellipse cx="-42" cy="12" rx="7" ry="12" fill="#74cfe8" transform="rotate(20 -42 12)"/>
+      <ellipse cx="42" cy="12" rx="7" ry="12" fill="#74cfe8" transform="rotate(-20 42 12)"/>
+      <ellipse cx="-18" cy="55" rx="12" ry="6" fill="#f6d2a2"/>
+      <ellipse cx="18" cy="55" rx="12" ry="6" fill="#f6d2a2"/>
+      <rect x="-40" y="-56" width="80" height="110" rx="40" fill="#74cfe8"/>
+      <ellipse cx="-27" cy="-4" rx="6" ry="3.5" fill="#ff8fa3" opacity="0.55" stroke="none"/>
+      <ellipse cx="27" cy="-4" rx="6" ry="3.5" fill="#ff8fa3" opacity="0.55" stroke="none"/>
+      <circle cx="-16" cy="-28" r="14" fill="#fff"/>
+      <circle cx="16" cy="-28" r="14" fill="#fff"/>
+      <circle cx="-12" cy="-26" r="6" fill="#1d3b47" stroke="none"/>
+      <circle cx="20" cy="-26" r="6" fill="#1d3b47" stroke="none"/>
+      <circle cx="-10" cy="-28.5" r="2" fill="#fff" stroke="none"/>
+      <circle cx="22" cy="-28.5" r="2" fill="#fff" stroke="none"/>
+      <rect x="-5" y="0" width="10" height="9" rx="1.5" fill="#fff" stroke-width="2.5"/>
+      <line x1="0" y1="0" x2="0" y2="9" stroke-width="2"/>
+      <ellipse cx="0" cy="-6" rx="13" ry="9" fill="#f6d2a2"/>
+      <ellipse cx="0" cy="-10" rx="6" ry="4" fill="#1d3b47" stroke="none"/>
+    </g>
+    <path id="brace" d="M42 36 C27 36 28 50 28 68 L28 108 C28 119 22 124 14 124 C22 124 28 129 28 140 L28 180 C28 198 27 212 42 212"
+          fill="none" stroke="#00add8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </defs>
+  <use xlink:href="#brace" href="#brace"/>
+  <use xlink:href="#brace" href="#brace" transform="translate(240 0) scale(-1 1)"/>
+  <use xlink:href="#gopher" href="#gopher" transform="translate(120 112)"/>
+  <use xlink:href="#gopher" href="#gopher" transform="translate(66 178) scale(0.4)"/>
+  <use xlink:href="#gopher" href="#gopher" transform="translate(174 178) scale(0.4)"/>
+</svg>
